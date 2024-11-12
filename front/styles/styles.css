@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: #030303;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+
+}
+
+/* ------------------------- header ------------------- */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* el margin 0 arriba y a derecha e izq auto, esto hace que una vez que pasemos los 1200  el contenido se mantiene centrado*/
+}
+
+.container-footer {
+    max-width: 1200px;
+    /
+}
+.movies-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* el margin 0 arriba y a derecha e izq auto, esto hace que una vez que pasemos los 1200  el contenido se mantiene centrado*/
+}
+
+.box-1 h3{
+    font-size: 20px;
+    height: 20px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 30px;
+}
+
+
+
+/*el diseño es destop first*/
+.header {
+    background-image: url(../images/bg-2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    
+    /*Para que entre todo el contenido*/
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    /*para que se coloque en la parte de arriba*/
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-footer {
+   
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.logo {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    /* float: left;   a los enlaces los tira a la izquierda */
+    display: flex;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.menu .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#menu {
+    display: none;
+    /*oculte check point*/
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    /*aparece manito */
+    display: none;
+    /*ahora no se tiene que ver*/
+}
+
+.header-content {
+    display: flex;
+    width: 100%;
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-end;
+}
+
+.header-1 img {
+    width: 300px;
+
+}
+
+.header-2 {
+    width: 35%;
+    margin-top: 100px;
+    text-align: end;
+}
+
+.header-2 h1 {
+    color: #FFFFFF72;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.header-2 img {
+    width: 70px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #FF2F28;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.btn-2 {
+    width: 110px;
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #FF2F28;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+
+
+/*--------------Seccion Cards --------------------------------------------*/
+/* Estilos para el contenedor de películas */
+#movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Estilos para cada tarjeta de película */
+.movie-card {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    
+}
+
+.movie-card h3{
+    width: 300px;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para la imagen de la película */
+.movie-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para el contenido de la película */
+.movie-content {
+    padding: 10px;
+    
+    
+}
+
+/* Estilos para los detalles de la película */
+.movie-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilos para las etiquetas de detalles de la película */
+.movie-details p {
+    margin: 10px 0;
+}
+/* --------------- sección peliculas----------------------------- */
+
+.movies {
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+hr {
+    border: 1px solid #FF2F28;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.box-container-1,
+.box-container-2,
+.box-container-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+}
+
+.box-1:nth-child(1),
+.box-1:nth-child(2),
+.box-1:nth-child(3),
+.box-1:nth-child(4) {
+    display: inline-block;
+}
+
+.box-2:nth-child(1),
+.box-2:nth-child(2),
+.box-2:nth-child(3),
+.box-2:nth-child(4) {
+    display: inline-block;
+}
+
+.box-3:nth-child(1),
+.box-3:nth-child(2),
+.box-3:nth-child(3),
+.box-3:nth-child(4) {
+    display: inline-block;
+}
+
+.load-more {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 1px solid #FF2F28;
+    color: #FF2F28;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.load-more:hover {
+    background-color: #FF2F28;
+    color: #FFFFFF;
+}
+
+.content img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content {
+    color: #CFCFCF;
+    font-size: 20px;
+}
+
+/* ------------  Footer */
+.footer {
+    display: flex;
+    justify-content:center;
+   
+    
+  
+}
+
+.menu-footer .navbar ul li {
+    position: relative;
+    /* float: left;   a los enlaces los tira a la izquierda */
+    display: flex;
+
+}
+
+.menu-footer .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.menu-footer .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#menu-footer {
+    display: none;
+    /*oculte check point*/
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    /*aparece manito */
+    display: none;
+    /*ahora no se tiene que ver*/
+}

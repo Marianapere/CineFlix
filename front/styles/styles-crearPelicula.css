@@ -1,0 +1,31 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* Esto centra verticalmente los elementos */
+}
+
+h2,
+form {
+    margin: 10px;
+    /* Espacio alrededor de los elementos para que no se peguen al borde */
+}
+
+form div {
+    margin-bottom: 10px;
+    /* Espacio entre los elementos del formulario */
+}
+
+label {
+    display: block;
+    width: 20%;
+    /* Esto hace que cada etiqueta esté en una línea separada */
+}
+
+button{
+    width: 25%;
+    
+}

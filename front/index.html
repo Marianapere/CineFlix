@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Películas</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="menu container">
+        <a href="#" class="logo">cineflix</a>
+        <input type="checkbox" id="menu" />
+        <label class="menu">
+          <img src="images/menu.png" class="menu-icono" alt="menu">
+        </label>
+    
+    
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="./pages/HistoriaCine.html">Historia del Cine</a></li>
+            <li><a href="./pages/Peliculas.html">Películas</a></li>
+            <li><a href="./pages/Promociones.html">Promociones</a></li>
+            <li><a href="./pages/CrearPelicula.html">Crear Nueva Película</a></li>
+          </ul>
+        </nav>
+    
+        <a href="#" class="btn-1">Login</a>
+      </div>
+    
+      <div class="header-content container">
+        <div class="header-1">
+          <img src="images/bridgerton.png" alt="">
+          <a href="#" class="btn-2">Ver ahora</a>
+        </div>
+    
+        <div class="header-2">
+          <h1 class="logo">Las mejores <br>películas</h1>
+          <img src="images/play.png" alt="">
+        </div>
+      </div>
+    
+    </header>
+    
+  <section class="movies movies-container">
+    <!-- --------------- -->
+    <h2>Películas Favoritas</h2>
+    <hr>
+    <div id="movies-container" class="cards"></div>
+   
+  </section>
+    
+    
+    
+    
+    <hr>
+    <footer class="footer">
+      
+      <div class="menu-footer container-footer">
+        <a href="#" class="logo">cineflix</a>
+        <input type="checkbox" id="menu-footer" />
+        
+      
+      
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="./pages/HistoriaCine.html">Historia del Cine</a></li>
+            <li><a href="./pages/Peliculas.html">Películas</a></li>
+            <li><a href="./pages/Promociones.html">Promociones</a></li>
+            <li><a href="./pages/CrearPelicula.html">Crear Nueva Película</a></li>
+          </ul>
+        </nav>
+      
+        
+      </div>
+    
+     
+
+    </footer>
+
+   
+   <script src="./scripts/render.js"></script>
+    <!-- <script src="./scripts/tempData.js"></script> -->
+    <script src="./public/bundle.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: #030303;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+    border-radius: 0px;
+
+}header{
+    background-color: black;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-position: top;
+    font-size: x-large;
+      
+   
+
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+.carrousel{
+    background-color: rgb(72, 69, 69);
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+.nosotros{
+    text-align: justify;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: large;
+        
+}
+.nosotros img {
+   
+    border-radius: 5px;
+}
+
+.container{
+    
+    padding-bottom: 50px;
+    background-color: rgb(72, 69, 69);
+}
+
+.container-form {
+
+        padding-bottom: 50px;
+        background-color: rgb(72, 69, 69);
+        border-radius: 5px;
+}
+
+.text-center{
+    padding-top: 20px;
+}
+
+.contactenos{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:rgb(72, 69, 69);
+}
+
+.btn{
+    text-align: center;
+    margin-top: 20px;
+
+}

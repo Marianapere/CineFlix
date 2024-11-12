@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: #030303;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FFFFFF;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.promos {
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+    margin-top: 30px;
+}
+
+.linea {
+    border: none;
+   
+    border-top: 1px solid #ccc;
+    
+    margin: 20px 0;
+   
+    width: 90%;
+    
+    margin-left: 70px;
+}
+    
+
+
+
+  .promos2 {
+      padding-top: 30px;
+      display: flex;
+    margin-left: 135px;
+      
+  }
+
+  .promo-blanco{
+    width: 53%;
+  }
+
+  .promo-blanco h1 {
+    font-size: 3rem;
+   margin-bottom: 30px;
+  }
+   .promo-blanco h2 {
+       font-size: xx-large;
+   }
+
+.promos-container .promo2-container{
+    max-width: 1200px;
+    margin: 20px;
+    
+}
+
+.box-1 h3 {
+    font-size: 20px;
+    height: 20px;
+    
+    margin-bottom: 30px;
+}
+
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.header {
+    background-image: url(../images/bg-2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#menu {
+    display: none;
+    
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    
+    display: none;
+   
+}
+
+
+.logo {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    
+    display: flex;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.menu .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#menu {
+    display: none;
+    
+}
+
+
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    
+    display: none;
+    
+}
+
+
+.btn-1 {
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #FF2F28;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+.promo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.footer {
+    max-width: 1200px;
+    top: 0;
+    
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+     margin-left: 135px; 
+}
+
+.footer .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#footer {
+    display: none;
+    
+}
+
+.footer-icono {
+    width: 25px;
+}
+
+.footer label {
+    cursor: pointer;
+    
+    display: none;
+    
+}
+
+.footer .navbar ul li {
+    position: relative;
+    
+    display: flex;
+
+}
+
+.footer .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.footer .navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#footer {
+    display: none;
+    
+}
+
+
+
+.footer-icono {
+    width: 25px;
+}
+
+.footer label {
+    cursor: pointer;
+    
+    display: none;
+    
+}
